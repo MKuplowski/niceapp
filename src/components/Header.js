@@ -28,7 +28,7 @@ const Header = () => {
                 tabIndex={0}
                 role="button">Save as Draft</Button>
                 <Button
-                type="button"
+                type="submit"
                 variant="third"
                 tabIndex={0}
                 role="button">Publish</Button>
