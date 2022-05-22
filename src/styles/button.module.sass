@@ -1,0 +1,48 @@
+@import './variables.sass'
+.button
+	display: inline-block
+	height: auto
+	border-radius: 8px
+	border-style: none
+	color: #fff
+	cursor: pointer
+	font-family: $Poppins
+	font-size: 16px
+	font-weight: 600
+	letter-spacing: normal
+	line-height: 1.5
+	outline: none
+	overflow: hidden
+	padding: 13px 20px
+	position: relative
+	text-align: center
+	text-decoration: none
+	transform: translate3d(0, 0, 0)
+	transition: all .3s
+	&:hover
+		opacity: 1
+		transform: translateY(0)
+		transition-duration: .35s
+
+	&--primary
+
+		background-color: #389a61
+		min-width: 80px
+		&:hover
+			background-color: #0e4224
+
+	&--secondary
+		background-color: #667249
+		color: white
+		min-width: 142px
+
+		margin-right: 10px
+		&:hover
+			background-color: #393a26
+
+	&--third
+		background-color: #396853
+		color: white
+
+		&:hover
+			background-color: #293829
