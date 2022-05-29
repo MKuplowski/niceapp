@@ -1,0 +1,63 @@
+@import 'variables'
+
+.WrapperMain
+    margin-left: 100px
+    margin-right: 100px
+    font-family: $Poppins
+    font-size: 14px
+.WrapperUserAll
+    @include flex(flex-start, normal , column )
+    background-color: white
+    min-width: 450px
+    border-radius: 10px
+    padding: 20px
+
+.WrapperUser
+    @include flex(flex-start, center , row )
+
+.WrapperUserData
+    display: block
+    padding: 20px
+
+.UserPhoto
+    min-width: 160px
+    height: 160px
+    background-color: #dcd7df
+    border-radius: 10px
+
+.UserSpeciality
+    display: inline-block
+    background-color: #cfbbd8
+    color: #5c2774
+    font-weight: bold
+    border-radius: 20px
+    padding: 10px
+
+.UserName
+
+    min-width: 200px
+    height: auto
+    border-radius: 20px
+    margin-top: 10px
+    margin-bottom: 10px
+    font-size: 30px
+    font-weight: bold
+
+.UserLocation
+    min-width: 200px
+    height: auto
+    border-radius: 20px
+    color: gray
+
+.UserDescription
+    padding-top: 15px
+
+.AddArea
+    @include flex(center, center , row )
+    margin
+    border-color: #3e3c3fa4
+    border-style: dotted
+    margin-top: 10px
+    margin-bottom: 10px
+    border-radius: 10px
+    padding: 5px
