@@ -7,7 +7,8 @@ import { getClasses } from '../utils/getClasses';
 const buttonTypes = {
     primary: 'primary',
     secondary: 'secondary',
-    third: 'third'
+    third: 'third',
+    fourth: 'fourth'
 };
 
 function Button ({

@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 import styles from '../styles/WrapperUser.module.sass'
 function WrapperUser() {
   return (
@@ -26,7 +27,10 @@ function WrapperUser() {
                     <div className={styles.UserDescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc massa massa, varius in turpis eu, venenatis iaculis tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec ut sollicitudin sapien. Nullam sed consequat dolor, sed ultricies neque. Suspendisse potenti. Morbi et lacinia lorem.</div>
             
                 </div>
-                <div className={styles.AddArea}>+</div>
+                <div className={styles.AddArea}><Button type="button"
+                variant="fourth"
+                tabIndex={0}
+                role="button">+</Button></div>
         </div>
   )
 }
